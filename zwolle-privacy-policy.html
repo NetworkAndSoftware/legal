@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Zwolle — Privacy Policy</title>
+<title>Zwolle Privacy Policy</title>
 <style>
   body { font-family: system-ui, sans-serif; max-width: 640px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #222; }
   h1 { font-size: 1.5rem; }
@@ -13,23 +13,40 @@
 </style>
 </head>
 <body>
-<h1>Zwolle — Privacy Policy</h1>
-<p class="updated">Last updated: April 12, 2026</p>
+<h1>Zwolle Privacy Policy</h1>
+<p class="updated">Last updated: October 9, 2026</p>
 
 <h2>Overview</h2>
-<p>Zwolle is a cycling workout app. It does not collect, store, or transmit any personal data to external servers. All data you create stays on your device.</p>
+<p>Zwolle is a cycling workout app for Android and Windows. All data you create stays on your device by default. Optionally, you may connect to third-party services (Intervals.icu and Strava). When connected, the app communicates with those services only at your explicit request or as described below.</p>
 
 <h2>Data stored on your device</h2>
-<p>Zwolle may store workout files and settings locally on your device. This data is not accessible to us and is never uploaded anywhere.</p>
+<p>Zwolle may store workout files and settings locally on your device. This data is not accessible to us. It leaves your device only when you share a workout with a service you have connected, as described below.</p>
 
 <h2>Bluetooth</h2>
 <p>Zwolle uses Bluetooth Low Energy to communicate with cycling sensors and trainers. Bluetooth data is processed locally on your device and is not recorded or transmitted.</p>
 
 <h2>Location</h2>
-<p>Zwolle requests location permission solely because it is required by Android to scan for Bluetooth devices. The app does not access, record, or transmit your location.</p>
+<p>On Android, Zwolle requests location permission solely because Android requires it to scan for Bluetooth devices. On Windows, Zwolle does not ask for location access. The app does not access, record, or transmit your location.</p>
 
 <h2>Third-party services</h2>
-<p>Zwolle does not use analytics, advertising, crash reporting, or any other third-party services that collect data.</p>
+<p>Zwolle does not use analytics, advertising, or crash reporting. It does not transmit data to any third-party service unless you explicitly connect one:</p>
+<ul>
+  <li><strong>Intervals.icu.</strong> If you connect your Intervals.icu account, Zwolle may:
+    <ul>
+      <li>Fetch your planned workouts for the day (read, not stored beyond the session).</li>
+      <li>Read your athlete profile to retrieve your FTP value (when you confirm the post-connect prompt or have ticked "Keep FTP up-to-date from Intervals.icu").</li>
+      <li>Upload completed workout files (FIT format) to your Intervals.icu account when you choose to share a workout.</li>
+    </ul>
+    All communication with Intervals.icu uses HTTPS and your OAuth access token. You can disconnect at any time from the Settings page, which revokes the token and removes all stored credentials.
+  </li>
+  <li><strong>Strava.</strong> If you connect your Strava account, Zwolle may:
+    <ul>
+      <li>Read your athlete profile to retrieve your FTP value (when you confirm the post-connect prompt or have ticked "Keep FTP up-to-date from Strava").</li>
+      <li>Upload completed workout files (FIT format) to your Strava account when you choose to share a workout.</li>
+    </ul>
+    All communication with Strava uses HTTPS and your OAuth access token. You can disconnect at any time from the Settings page, which revokes the token and removes all stored credentials.
+  </li>
+</ul>
 
 <h2>Changes to this policy</h2>
 <p>If future versions of Zwolle introduce data collection, this policy will be updated accordingly before those features are released.</p>
