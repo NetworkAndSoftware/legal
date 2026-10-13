@@ -20,7 +20,7 @@
 <p>Zwolle is a cycling workout app for Android, Windows, iPhone and iPad. All data you create stays on your device by default. Optionally, you may connect to third-party services (Intervals.icu and Strava). When connected, the app communicates with those services only at your explicit request or as described below.</p>
 
 <h2>Data stored on your device</h2>
-<p>Zwolle may store workout files and settings locally on your device. This data is not accessible to us. It leaves your device only when you share a workout with a service you have connected, as described below.</p>
+<p>Zwolle may store workout files and settings locally on your device. This data is not accessible to us. It leaves your device only when a workout is shared with a service you have connected, as described below.</p>
 
 <h2>Bluetooth</h2>
 <p>Zwolle uses Bluetooth Low Energy to communicate with cycling sensors and trainers. Bluetooth data is processed locally on your device and is not recorded or transmitted.</p>
@@ -35,14 +35,14 @@
     <ul>
       <li>Fetch your planned workouts for the day (read, not stored beyond the session).</li>
       <li>Read your athlete profile to retrieve your FTP value (when you confirm the post-connect prompt or have ticked "Keep FTP up-to-date from Intervals.icu").</li>
-      <li>Upload completed workout files (FIT format) to your Intervals.icu account when you choose to share a workout.</li>
+      <li>Upload completed workout files (FIT format) to your Intervals.icu account when a ride ends, unless you turn off "Share rides to Intervals.icu automatically" in Settings, or when you choose to share a workout.</li>
     </ul>
     All communication with Intervals.icu uses HTTPS and your OAuth access token. You can disconnect at any time from the Settings page, which revokes the token and removes all stored credentials.
   </li>
   <li><strong>Strava.</strong> If you connect your Strava account, Zwolle may:
     <ul>
       <li>Read your athlete profile to retrieve your FTP value (when you confirm the post-connect prompt or have ticked "Keep FTP up-to-date from Strava").</li>
-      <li>Upload completed workout files (FIT format) to your Strava account when you choose to share a workout.</li>
+      <li>Upload completed workout files (FIT format) to your Strava account when a ride ends, unless you turn off "Share rides to Strava automatically" in Settings, or when you choose to share a workout.</li>
     </ul>
     All communication with Strava uses HTTPS and your OAuth access token. You can disconnect at any time from the Settings page, which revokes the token and removes all stored credentials.
   </li>
