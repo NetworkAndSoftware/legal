@@ -10,7 +10,7 @@ is not shown, and neither is anything in an HTML comment.
 
 - id: 2026-11-02-google-play
 - date: 2026-11-02
-- platforms: android
+- platforms: 
 - expires: 2026-11-04
 
-This is a test of the emergency broadcast system and we have a[Promotional Video](https://www.youtube.com/watch?v=nVMB_5gMQ-I) for Zwolle.
+This is just a test of the emergency broadcast system for Zwolle. 
